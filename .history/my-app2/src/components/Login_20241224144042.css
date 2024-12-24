@@ -1,0 +1,92 @@
+/* Animated Background */
+body {
+    margin: 22px;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(120deg, #A7C7E7, #F1C6D6, #98FF98);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position:fixed; */
+  }
+  
+
+  /* Animation Keyframes */
+  @keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  /* Wrapper for Auth Components */
+  /* .auth-wrapper {
+    width: 100%;
+    max-width: 400px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+   */
+  /* Inner Form Styling */
+  /* .auth-inner {
+    display: flex;
+    flex-direction: column;
+  } */
+
+  .auth-wrapper {
+    background-image: url('.../images/SahayA.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    marginTop:60px;
+    /* background: rgba(255, 255, 255, 0.9); */
+    height: 100vh; /* Adjust the height as needed */
+    width: 200vh; /* Adjust the width as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .auth-inner {
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: Makes the form container semi-transparent */
+    padding: 30px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px; /* Adjust based on your design */
+  }
+  
+  
+  /* Input Fields */
+  input {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  /* Submit Button */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Register Link */
+  .forgot-password a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .forgot-password a:hover {
+    text-decoration: underline;
+  }
+  

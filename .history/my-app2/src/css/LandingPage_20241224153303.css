@@ -1,0 +1,178 @@
+.landing-page body {
+  margin: 0;
+  background: #000;
+}
+
+.landing-page .main {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+}
+
+.landing-page .backgroundImage {
+  width: 400px;
+  height: 400px;
+  background-image: url("https://t3.ftcdn.net/jpg/07/95/53/18/360_F_795531889_uVdp2f38PMeMXlOmwngTnPsrLrCsSq4I.jpg");
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+  left: 30%;
+  animation: sad 3s forwards, hidesad 2s forwards 2s, happy 3s forwards 3s;
+}
+
+.landing-page .backgroundImage:after {
+  content: '';
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi1ynytbXpgEHrXxrUSER0OuUQ3B5BdBDgcw&s");
+  background-repeat: no-repeat;
+  left: 0;
+  bottom: 0;
+  opacity: 0;
+  animation: happy forwards 3s;
+}
+
+@keyframes sad {
+  from {
+      bottom: 0;
+      width: 400px;
+      height: 400px;
+      opacity: 1;
+  }
+  to {
+      width: 400px;
+      height: 400px;
+      bottom: 0;
+      opacity: 0;
+  }
+}
+
+@keyframes happy {
+  from {
+      opacity: 0;
+      bottom: 0;
+  }
+  to {
+      opacity: 1;
+      bottom: 0;
+  }
+}
+
+@keyframes hideSad {
+  from {
+      opacity: 1;
+  }
+  to {
+      opacity: 0;
+  }
+}
+
+.landing-page .content {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 100px;
+  overflow: hidden;
+}
+
+.landing-page .text {
+  font-family: fantasy;
+  letter-spacing: 10px;
+  line-height: 70px;
+  position: relative;
+  left: -100%;
+  animation: text 2s forwards 6s;
+}
+
+.landing-page .text p {
+  font-size: 13px;
+  font-family: system-ui;
+  color: white;
+  letter-spacing: 1px;
+  line-height: 20px;
+  width: 500px;
+}
+
+.landing-page .text button {
+  padding: 13px 25px;
+  font-size: 17px;
+  border-radius: 8px;
+  background: #936fdc;
+  color: white;
+  cursor: pointer;
+  border: none;
+  letter-spacing: 0.5px;
+  transition: .5s ease-in-out;
+}
+
+.landing-page .text button:hover {
+  background: white;
+  color: #936fdc;
+}
+
+@keyframes text {
+  from {
+      left: -100%;
+  }
+  to {
+      left: 0%;
+  }
+}
+
+.landing-page .navbar {
+  overflow: hidden;
+}
+
+.landing-page .container {
+  width: 100%;
+  position: absolute;
+  top: -100%;
+  animation: navbar 2s forwards 6s;
+}
+
+.landing-page .logo {
+  float: left;
+  color: white;
+  margin-left: 100px;
+  margin-top: 20px;
+  font-family: system-ui;
+}
+
+.landing-page .menu {
+  font-family: system-ui;
+  font-size: 14px;
+  color: white;
+  letter-spacing: 2px;
+  margin-right: 150px;
+  margin-top: 20px;
+  float: right;
+}
+
+.landing-page .menu ul {
+  list-style: none;
+}
+
+.landing-page .menu ul li {
+  display: inline-block;
+  margin-left: 100px;
+  padding: 10px 15px;
+}
+
+.landing-page .menu ul li:hover {
+  transition: .5s ease-in-out;
+  background: #936fdc;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@keyframes navbar {
+  from {
+      top: -100%;
+  }
+  to {
+      top: 0%;
+  }
+}

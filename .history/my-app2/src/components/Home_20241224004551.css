@@ -1,0 +1,58 @@
+.character-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+
+.emotion-cloud {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.emotion {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  font-size: 50px;
+  pointer-events: auto;
+}
+
+.emotion:nth-child(1) {
+  transform: rotate(0deg) translate(250px) rotate(0deg);
+}
+
+.emotion:nth-child(2) {
+  transform: rotate(45deg) translate(250px) rotate(-45deg);
+}
+
+.emotion:nth-child(3) {
+  transform: rotate(90deg) translate(250px) rotate(-90deg);
+}
+
+.emotion:nth-child(4) {
+  transform: rotate(135deg) translate(250px) rotate(-135deg);
+}
+
+.emotion:nth-child(5) {
+  transform: rotate(180deg) translate(250px) rotate(-180deg);
+}
+
+.emotion:nth-child(6) {
+  transform: rotate(225deg) translate(250px) rotate(-225deg);
+}
+
+.emotion:nth-child(7) {
+  transform: rotate(270deg) translate(250px) rotate(-270deg);
+}
+
+.emotion:nth-child(8) {
+  transform: rotate(315deg) translate(250px) rotate(-315deg);
+}

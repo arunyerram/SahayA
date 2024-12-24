@@ -1,0 +1,39 @@
+.consultancy-container {
+  padding: 10px;
+  margin-right: 80px;
+  margin-left: 0px;
+  margin-top: 1250px;
+  margin-bottom: 140px;
+}
+
+.profiles-grid {
+  display: grid;
+  grid-template-columns: 1fr; /* Ensures cards are displayed one by one */
+  gap: 20px; /* Adds space between cards */
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out;
+  width: 100%;
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Adds a hover effect */
+}
+
+.card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.modal {
+  /* z-index: 1000; Ensures the modal appears on top of everything */
+}

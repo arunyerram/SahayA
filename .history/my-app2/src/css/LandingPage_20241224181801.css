@@ -1,0 +1,222 @@
+/* Reset default margin and padding */
+body {
+  margin: 0;
+  padding: 0;
+  background: #000;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  width: 100%; /* Ensure body takes up full width */
+  height: 100vh; /* Full viewport height */
+}
+
+
+/* Emoji container */
+.emoji-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 10;
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+/* Individual emoji styling */
+.emoji {
+  animation: emojiFadeIn 2s ease-in-out;
+}
+
+/* Keyframes for fading in each emoji */
+@keyframes emojiFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+body {
+  margin: 0;
+  background: #000;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+}
+
+.backgroundImage:after {
+  content: '';
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi1ynytbXpgEHrXxrUSER0OuUQ3B5BdBDgcw&s");
+  background-repeat: no-repeat;
+  left: 0;
+  bottom: 0;
+  opacity: 0;
+  animation: happy forwards 0s;
+}
+
+
+
+@keyframes sad {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes happy {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Content Styling */
+.content {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 100px;
+  left: 50px; /* Align to left side, not extreme corner */
+  text-align: left;
+  z-index: 1;
+}
+
+.text {
+  font-family: fantasy;
+  letter-spacing: 10px;
+  line-height: 70px;
+  position: relative;
+  left: 0%;
+  margin-bottom: 50px; /* Added margin to avoid overlap with the button */
+  animation: text 2s forwards 6s;
+}
+
+.text p {
+  font-size: 13px;
+  font-family: system-ui;
+  color: white;
+  letter-spacing: 1px;
+  line-height: 20px;
+  width: 500px;
+}
+
+.text button {
+  padding: 13px 25px;
+  font-size: 17px;
+  border-radius: 8px;
+  background: #936fdc;
+  color: white;
+  cursor: pointer;
+  border: none;
+  letter-spacing: 0.5px;
+  transition: 0.5s ease-in-out;
+  position: relative;
+  top: 20px;
+  margin-top: 20px; /* Space between text and button */
+}
+
+.text button:hover {
+  background: white;
+  color: #936fdc;
+}
+
+@keyframes text {
+  from {
+    left: -100%;
+  }
+  to {
+    left: 0%;
+  }
+}
+
+/* Navbar Styling */
+.navbar {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  position: absolute;
+  top: -100%;
+  animation: navbar 2s forwards 6s;
+}
+
+.logo {
+  float: left;
+  color: white;
+  margin-left: 100px;
+  margin-top: 20px;
+  font-family: system-ui;
+}
+
+.menu {
+  font-family: system-ui;
+  font-size: 14px;
+  color: white;
+  letter-spacing: 2px;
+  margin-right: 150px;
+  margin-top: 20px;
+  float: right;
+}
+
+.menu ul {
+  list-style: none;
+}
+
+.menu ul li {
+  display: inline-block;
+  margin-left: 100px;
+  padding: 10px 15px;
+}
+
+.menu ul li:hover {
+  transition: 0.5s ease-in-out;
+  background: #936fdc;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@keyframes navbar {
+  from {
+    top: -100%;
+  }
+  to {
+    top: 0%;
+  }
+}
+
+/* Login button at top-right corner */
+.login-button {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  size: 40px;
+  padding: 10px 20px;
+  background-color: #936fdc;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  z-index: 2;
+}
+
+.login-button:hover {
+  background-color: white;
+  color: #936fdc;
+}
