@@ -1,0 +1,132 @@
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Navbar Styling */
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Adjust alignment for more structure */
+  align-items: center;
+  background-color: #b71c1c;
+  color: white;
+  padding: 15px 30px; /* Added padding for better spacing */
+  font-size: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Added shadow for depth */
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Main Content Styling */
+.home-container {
+  position: relative;
+  height: 100vh;
+  background: linear-gradient(to bottom right, #f5f7fa, #c3cfe2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+}
+/* Add animation for rolling effect */
+@keyframes roll {
+  from {
+    transform: rotate(0deg) translateX(120px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(120px) rotate(-360deg);
+  }
+}
+
+/* Emoji container and rolling effect */
+.emoji-container {
+  position: relative;
+  width: 300px; /* Adjusted size for better visibility */
+  height: 300px;
+  margin: 30px auto;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white; /* Added background for contrast */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Added shadow for emphasis */
+  overflow: hidden;
+  animation: spin 10s linear infinite; /* Makes the whole container spin */
+}
+
+.central-point {
+  position: absolute;
+  font-size: 48px;
+  font-weight: bold; /* Added emphasis */
+}
+
+/* Rolling effect for individual emojis */
+.emoji {
+  position: absolute;
+  font-size: 32px;
+  top: 50%;
+  left: 50%;
+  transform-origin: center;
+  animation: roll 5s linear infinite; /* Make each emoji rotate */
+}
+
+/* Button Group */
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.action-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 25px; /* Increased padding for better appearance */
+  font-size: 18px; /* Larger text for readability */
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.action-button:hover {
+  background-color: #388e3c;
+  transform: translateY(-2px); /* Adds a hover effect */
+}
+
+/* Feedback Button */
+.feedback-button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  padding: 12px 18px; /* Adjusted padding for balance */
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.feedback-button:hover {
+  background-color: #e64a19;
+  transform: translateY(-2px); /* Adds a hover effect */
+}
+
