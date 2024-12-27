@@ -286,7 +286,7 @@ const Chatbot = () => {
               bottom: "30px",
               right: "30px",
               width: "1350px", // Updated width for appropriate sizing
-              height: "500px", // Updated height for appropriate sizing
+              height: "600px", // Updated height for appropriate sizing
               borderRadius: "10px",
               overflow: "hidden",
               zIndex: 9999,

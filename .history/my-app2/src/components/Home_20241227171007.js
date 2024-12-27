@@ -1051,7 +1051,6 @@ import { Link, useNavigate } from "react-router-dom";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import Nav from "./Nav.js";
-// import { useNavigate } from "react-router-dom";
 import Character from "./Character.js";
 import "../css/Home.css";
 import Footer from "./Footer.js";
@@ -1064,8 +1063,6 @@ const Home = () => {
   const handleNameChange = (e) => {
     setChatbotName(e.target.value); // Update the chatbot name state
   };
-
-  // const navigate = useNavigate();
 
   const handleNameSubmit = () => {
     if (chatbotName.trim() !== "") {
@@ -1261,7 +1258,7 @@ const Home = () => {
       {/* Emoji Section */}
 
       <div style={{ textAlign: "center", marginBottom: "80px", margin: "20px" }}>
-  <h2 style={{ marginBottom: "40px", color: "Black" ,fontsize:"300px"}}>Express Your Feelings</h2>
+  <h2 style={{ marginBottom: "40px", color: "Black" }}>Express Your Feelings</h2>
   <motion.div
     style={{
       fontSize: "3rem", // Increased font size for larger icons
@@ -1273,20 +1270,20 @@ const Home = () => {
     animate={{ scale: 1 }}
     transition={{ duration: 0.5 }}
   >
- <img
-          src="/images/notes.jpg"
-          alt="Notepad"
-          title="Notepad"
-          style={{ width: "60px", height: "60px", cursor: "pointer" }}
-          onClick={() => navigate("/notes")}
-        />
-        <img
-          src="/images/scribble.png"
-          alt="Scribble Pad"
-          title="Scribble Pad"
-          style={{ width: "60px", height: "60px", cursor: "pointer" }}
-          onClick={() => navigate("/scribblepad")}
-        />
+    <img
+      src="/images/notes.jpg"
+      alt="Notepad"
+      title="Notepad"
+      style={{ width: "60px", height: "60px", cursor: "pointer" }}
+      onClick={() => setCurrentAnimation("Notepad")}
+    />
+    <img
+      src="/images/scribble.png"
+      alt="Scribble Pad"
+      title="Scribble Pad"
+      style={{ width: "60px", height: "60px", cursor: "pointer" }}
+      onClick={() => setCurrentAnimation("ScribblePad")}
+    />
     <FaRobot
       style={{ color: "gray", cursor: "pointer" }}
       title="Need Help"

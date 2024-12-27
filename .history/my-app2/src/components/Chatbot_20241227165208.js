@@ -285,8 +285,8 @@ const Chatbot = () => {
               position: "fixed",
               bottom: "30px",
               right: "30px",
-              width: "1350px", // Updated width for appropriate sizing
-              height: "500px", // Updated height for appropriate sizing
+              width: "1450px", // Updated width for appropriate sizing
+              height: "600px", // Updated height for appropriate sizing
               borderRadius: "10px",
               overflow: "hidden",
               zIndex: 9999,
@@ -320,7 +320,7 @@ const Chatbot = () => {
         }
       `}</style>
 
-      {/* <h1>Notes</h1> */}
+      <h1>Notes</h1>
     </>
   );
 };

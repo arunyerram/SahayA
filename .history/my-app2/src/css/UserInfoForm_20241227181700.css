@@ -8,7 +8,7 @@
   width: 100%;  /* Full width to center it properly */
   position: relative;  /* Use relative positioning */
   padding: 20px;
-  margin-top: 500px; /* Adjusted margin-top for better spacing */
+  margin-top: 440px; /* Adjusted margin-top for better spacing */
   box-sizing: border-box; /* Ensure the padding is included in the element's width/height calculation */
 }
 

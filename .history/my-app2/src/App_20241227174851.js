@@ -264,7 +264,7 @@ import LandingPage from "./components/LandingPage";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import ChatApplication from "./components/ChatApplication";
-import ScribblePad from "./components/ScribblePad";
+import ScribblePad from "./components/Scribble";
 // Importing the Notification components
 import { NotificationForm } from "./components/NotificationForm";
 import { NotificationList } from "./components/NotificationList";

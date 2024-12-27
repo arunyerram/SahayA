@@ -1,0 +1,94 @@
+.notes-container {
+    display: flex;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    width: 100%;
+  }
+  
+  .sidebar {
+    width: 100%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    position:left;
+  }
+  
+  .new-note-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .new-note-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .notes-list {
+    list-style: none;
+    padding: 0;
+    overflow-y: auto;
+    max-height: calc(100% - 60px);
+  }
+  
+  .notes-list li {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .notes-list li.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .notes-list li:hover {
+    background-color: #ddd;
+  }
+  
+  .editor {
+    width: 75%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  textarea {
+    width: 100%;
+    height: calc(100% - 50px);
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    resize: none;
+  }
+  
+  .save-btn,
+  .delete-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 5px 0 0;
+  }
+  
+  .save-btn:hover {
+    background-color: #218838;
+  }
+  
+  .delete-btn {
+    background-color: #dc3545;
+  }
+  
+  .delete-btn:hover {
+    background-color: #c82333;
+  }
+  

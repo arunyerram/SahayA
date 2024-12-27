@@ -264,7 +264,7 @@ import LandingPage from "./components/LandingPage";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import ChatApplication from "./components/ChatApplication";
-import ScribblePad from "./components/ScribblePad";
+
 // Importing the Notification components
 import { NotificationForm } from "./components/NotificationForm";
 import { NotificationList } from "./components/NotificationList";
@@ -342,7 +342,6 @@ function App() {
         <Route path="/feedback" element={<Feedback />} />
         <Route path="/home" element={<Home />} />
         <Route path="/notes" element={<Notes />} />
-        <Route path="/scribblepad" element={<ScribblePad />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/register" element={<SignUp />} />
         <Route path="/UserInfoForm" element={<UserInfoForm />} />
@@ -358,5 +357,3 @@ function App() {
 }
 
 export default App;
-
-

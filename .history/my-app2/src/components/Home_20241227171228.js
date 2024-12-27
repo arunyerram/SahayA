@@ -1261,7 +1261,7 @@ const Home = () => {
       {/* Emoji Section */}
 
       <div style={{ textAlign: "center", marginBottom: "80px", margin: "20px" }}>
-  <h2 style={{ marginBottom: "40px", color: "Black" ,fontsize:"300px"}}>Express Your Feelings</h2>
+  <h2 style={{ marginBottom: "40px", color: "Black" }}>Express Your Feelings</h2>
   <motion.div
     style={{
       fontSize: "3rem", // Increased font size for larger icons
@@ -1274,18 +1274,18 @@ const Home = () => {
     transition={{ duration: 0.5 }}
   >
  <img
-          src="/images/notes.jpg"
+          src="/path-to-your-image-folder/notepad.jpg"
           alt="Notepad"
           title="Notepad"
           style={{ width: "60px", height: "60px", cursor: "pointer" }}
           onClick={() => navigate("/notes")}
         />
         <img
-          src="/images/scribble.png"
+          src="/path-to-your-image-folder/scribble.png"
           alt="Scribble Pad"
           title="Scribble Pad"
           style={{ width: "60px", height: "60px", cursor: "pointer" }}
-          onClick={() => navigate("/scribblepad")}
+          onClick={() => navigate("/scribble")}
         />
     <FaRobot
       style={{ color: "gray", cursor: "pointer" }}
