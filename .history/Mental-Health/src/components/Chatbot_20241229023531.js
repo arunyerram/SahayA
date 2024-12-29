@@ -99,8 +99,8 @@ const Chatbot = () => {
               position: "fixed",
               bottom: "30px",
               right: "30px",
-              width: "1350px", // Set appropriate size
-              height: "550px", // Set appropriate height
+              width: "1300px", // Set appropriate size
+              height: "500px", // Set appropriate height
               borderRadius: "10px",
               overflow: "hidden",
               zIndex: 9999, // Make sure this is above other content
