@@ -1,0 +1,72 @@
+.consultancy-container {
+  padding: 10px;
+  margin-right: 80px;
+  margin-left: 0px;
+  margin-top: 650px;
+  margin-bottom: 140px;
+}
+.profiles-grid {
+  display: flex;
+  justify-content: space-around; /* Distribute cards evenly */
+  gap: 5px; /* Space between the cards */
+  flex-wrap: wrap; /* Ensure responsiveness on smaller screens */
+  margin-top: 20px;
+}
+
+.card {
+  width: 300px; /* Set a fixed width for the cards */
+  height: 400px; /* Set a fixed height for the cards */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-img {
+  height: 200px; /* Adjust image size */
+  width: 100%;
+  object-fit: cover; /* Ensures image fits well within the card */
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+
+.card-body {
+  padding: 15px;
+  height: 180px; /* Adjust the height of the body to fit text and buttons */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #555;
+}
+
+.btn {
+  padding: 8px 15px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.card-body input {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 1rem;
+}
+
