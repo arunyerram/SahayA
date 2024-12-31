@@ -444,9 +444,6 @@
 
 
 
-
-
-
 import React, { useState, useEffect } from 'react';
 import '@chatscope/chat-ui-kit-styles/dist/default/styles.min.css';
 import { Link } from "react-router-dom";
@@ -457,7 +454,7 @@ import { useSpeechSynthesis } from 'react-speech-kit';
 import '../css/Chatbot.css';
 import { useNavigate } from "react-router-dom";
 
-const API_KEY = "";  // Replace with your actual API key
+const API_KEY = "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";  // Replace with your actual API key
 
 const systemMessage = {
   "role": "system",
