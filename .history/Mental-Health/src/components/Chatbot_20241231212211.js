@@ -460,7 +460,7 @@ const systemMessage = {
   "role": "system",
   "content": "Hello! I’m Sahaya, your mental health support assistant. Feel free to ask me anything related to mental health, and I'll do my best to assist you! and if asked about other topics please reply Formally and politely I am here to assist about Mental health Issues."
 };
-
+6
 function Chatbot() {
   const storedChatbotName = localStorage.getItem("chatbotName");
   const [chatbotName, setChatbotName] = useState(storedChatbotName || "");
