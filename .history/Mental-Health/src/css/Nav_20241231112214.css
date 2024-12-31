@@ -15,7 +15,7 @@
     width: 100%;                  /* Take full width */
     z-index: 9999;                /* Ensure it stays above all other content */
     background-color: Yellow;     /* Keep navbar background color */
-    /* box-shadow: 0 4px 2px -2px gray; Optional: to add shadow to navbar */
+    box-shadow: 0 4px 2px -2px gray; Optional: to add shadow to navbar
     /* transition: top 0.3s;         */
   }
   

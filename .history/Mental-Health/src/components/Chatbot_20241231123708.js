@@ -457,13 +457,13 @@ import { useSpeechSynthesis } from 'react-speech-kit';
 import '../css/Chatbot.css';
 import { useNavigate } from "react-router-dom";
 
-const API_KEY = "";  // Replace with your actual API key
+const API_KEY = "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";  // Replace with your actual API key
 
 const systemMessage = {
   "role": "system",
   "content": "Hello! I’m Sahaya, your mental health support assistant. Feel free to ask me anything related to mental health, and I'll do my best to assist you! and if asked about other topics please reply Formally and politely I am here to assist about Mental health Issues."
 };
-6
+
 function Chatbot() {
   const storedChatbotName = localStorage.getItem("chatbotName");
   const [chatbotName, setChatbotName] = useState(storedChatbotName || "");
@@ -566,25 +566,9 @@ function Chatbot() {
     <>
       <Nav chatbotName={chatbotName} />
 
-      <button
-  style={{
-    position: "fixed", // Ensures the button stays at a fixed position relative to the viewport
-    bottom: "90px", // Distance from the bottom edge
-    left: "70px", // Distance from the left edge
-    color: "blue", // Button text color
-    backgroundColor: "white", // Optional: background color
-    padding: "10px 10px", // Button padding for better appearance
-    borderRadius: "8px", // Rounded corners
-    border: "1px solid blue", // Optional: border styling
-    cursor: "pointer", // Indicates clickable button
-    boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)", // Optional: subtle shadow for aesthetic
-  }}
-  onClick={handleOnClick}
->
-  <FaMicrophone /> Speak
-</button>
-
-
+      <button style={{ marginRight: '10px'}} onClick={handleOnClick}>
+        <FaMicrophone /> Speak
+      </button>
 
       
       <div
@@ -645,7 +629,7 @@ function Chatbot() {
           </div>
         )}
 
-        <div style={{ marginTop: "120px", marginBottom:"50px",height: "500px", width: "1200px", alignSelf: "center" }}>
+        <div style={{ marginTop: "250px", marginBottom:"50px",height: "300px", width: "600px", alignSelf: "center" }}>
           <MainContainer>
             <ChatContainer>
               <MessageList
