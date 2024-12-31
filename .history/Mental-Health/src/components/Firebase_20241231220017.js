@@ -19,7 +19,11 @@ const app = initializeApp(firebaseConfig);
 export const auth = getAuth();
 export const db = getFirestore(app);
 
-
+/**
+ * Save a new task to Firestore
+ * @param {string} task - The task text to save
+ * @returns {Promise} - Resolves with the document reference or rejects with an error
+ */
 export const addTask = async (task) => {
   try {
     const tasksCollection = collection(db, "tasks");
@@ -35,7 +39,10 @@ export const addTask = async (task) => {
   }
 };
 
-
+/**
+ * Get all tasks from Firestore
+ * @returns {Promise} - Resolves with an array of task objects
+ */
 export const getTasks = async () => {
   try {
     const tasksCollection = collection(db, "tasks");

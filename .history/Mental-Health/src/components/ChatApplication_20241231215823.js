@@ -42,7 +42,7 @@ const ChatApplication = () => {
         </div>
       )}
 
-    
+      {/* If the privacyStatus is not set, show the options */}
       {privacyStatus === null && (
         <div style={{ textAlign: 'center', padding: '40px', fontFamily: 'Arial, sans-serif' }}>
           <h2 style={{ color: '#333', fontSize: '24px', marginBottom: '20px' }}>Select Account Privacy</h2>

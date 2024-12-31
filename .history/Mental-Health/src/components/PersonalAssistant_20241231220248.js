@@ -55,7 +55,12 @@ const PersonalAssistant = () => {
               >
                 Send to Mobile
               </button>
-              
+              {/* <button
+                className="btn btn-primary mt-2"
+                onClick={() => handleSendNotification("Email")}
+              >
+                Send to Email
+              </button> */}
               <button
                 className="btn btn-primary "
                 onClick={() => Navigate("/notifications-app") }

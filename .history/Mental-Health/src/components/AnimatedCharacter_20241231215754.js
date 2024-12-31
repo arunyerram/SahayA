@@ -5,8 +5,7 @@ import { useEffect, useRef } from "react";
 import { AnimationMixer } from "three";
 
 export const AnimatedCharacter = ({ emotion }) => {
-
-  const gltf = useLoader(GLTFLoader, "../public/assets/models/character.jpg");
+const gltf = useLoader(GLTFLoader, "../public/assets/models/character.jpg");
   const mixerRef = useRef();
   const modelRef = useRef();
 

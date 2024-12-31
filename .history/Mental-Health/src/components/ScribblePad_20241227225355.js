@@ -136,6 +136,7 @@ const ScribblePad = () => {
         </div>
       </div>
 
+      {/* Drawing Canvas */}
       <canvas
         ref={canvasRef}
         onMouseDown={startDrawing}

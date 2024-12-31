@@ -85,7 +85,7 @@ const Notiapp = () => {
     >
       Back
     </button>
-   
+    {/* <Footer/> */}
     </>
   );
 };
