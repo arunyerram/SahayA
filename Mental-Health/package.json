@@ -1,5 +1,5 @@
 {
-  "homepage":"http://ARUN-YERRAM.github.io/Project-3-1-CHatbot-Mental-Health-",
+  "homepage": "https://ARUN-YERRAM.github.io/Project-3-1-CHatbot-Mental-Health-",
   "name": "Mental-Health",
   "version": "0.1.0",
   "private": true,
@@ -21,6 +21,7 @@
     "bootstrap": "^5.3.3",
     "chart.js": "^4.4.7",
     "cra-template": "^1.2.0",
+    "css-minimizer-webpack-plugin": "^7.0.0",
     "firebase": "^11.0.2",
     "framer-motion": "^11.13.5",
     "langchain": "^0.3.8",
@@ -44,7 +45,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy":"npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",

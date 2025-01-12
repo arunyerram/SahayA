@@ -8,8 +8,8 @@
   min-height: 400px; /* Ensures a consistent height for the container */
   border-radius: 10px; /* Rounded corners for a modern look */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
-  background: linear-gradient(135deg, #74ebd5, #acb6e5); /* Gradient background *
-  margin-bottom: 80px; /* Adds space below for a footer or other content */
+  background: linear-gradient(135deg, #74ebd5, #acb6e5); /* Gradient background */
+  
   backdrop-filter: blur(10px); /* Optional: Adds a frosted glass effect */
   transition: all 0.3s ease-in-out; /* Smooth transition for hover effects */
 }
