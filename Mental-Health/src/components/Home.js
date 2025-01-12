@@ -211,7 +211,7 @@ const Home = () => {
       alt="Scribble Pad"
       title="Scribble Pad"
       style={{ width: "70px", height: "60px", cursor: "pointer" }} // Increased size
-      onClick={() => navigate("/scribblepad")}
+      onClick={() => navigate("/scribble-pad")}
     />
     <FaRobot
       style={{

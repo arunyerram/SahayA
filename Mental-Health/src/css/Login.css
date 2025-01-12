@@ -42,7 +42,7 @@ body {
   padding-top: 0px;
   bottom: 600px;
   width: 500px;/* Adjust based on the image size */
-  background-image: url('./Sahaya-removebg-preview.png');
+  background-image: url("./Sahaya-removebg-preview.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;

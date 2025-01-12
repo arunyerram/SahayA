@@ -1,4 +1,4 @@
-/* Global styles */
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f7fc;
@@ -14,7 +14,7 @@ body {
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
-    margin-top: 150px; /* Adjust this value as needed */
+    margin-top: 150px; 
   }
   
   .tasks-container:hover {
