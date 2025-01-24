@@ -3,7 +3,7 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 import { getFirestore, collection, addDoc, getDocs, deleteDoc, updateDoc, doc } from "firebase/firestore";
 
-// // Your web app's Firebase configuration
+// Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: "AIzaSyDprtWmFp0iEIS5_sCEf9gG8XbW0P2mmBA",
   authDomain: "login-auth-5543b.firebaseapp.com",
@@ -13,33 +13,10 @@ const firebaseConfig = {
   appId: "1:261251587986:web:e709ce20c740f612452b4b"
 };
 
-
-
-
-// // Initialize Firebase
+// Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
-// Your web app's Firebase configuration
-// const firebaseConfig = {
-  // apiKey: "AIzaSyABCXEnYW2HNHM0OVkgJ6pgOUUPJACr_2o",
-  // authDomain: "mentalhealth-auth.firebaseapp.com",
-  // projectId: "mentalhealth-auth",
-  // storageBucket: "mentalhealth-auth.firebasestorage.app",
-  // messagingSenderId: "958345997507",
-  // appId: "1:958345997507:web:7eb1a8ac9f038515bb0676"
 
-
-  // apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
-  // authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
-  // projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
-  // storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
-  // messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
-  // appId: process.env.REACT_APP_FIREBASE_APP_ID,
-// };
-
-console.log(firebaseConfig);
-// Initialize Firebase
-// const app = initializeApp(firebaseConfig);
 
 
 export const auth = getAuth();

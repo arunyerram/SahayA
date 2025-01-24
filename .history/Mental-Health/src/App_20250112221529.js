@@ -23,6 +23,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import ChatApplication from "./components/ChatApplication";
 import ScribblePad from "./components/ScribblePad";
+
 import { NotificationForm } from "./components/NotificationForm";
 import { NotificationList } from "./components/NotificationList";
 import { formatDateTime } from "./components/DateUtils";
@@ -102,7 +103,7 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/Model" element={<Model/>}/>
         <Route path="/notes" element={<Notes />} />
-        <Route path="/scribble-pad" element={<ScribblePad />} />
+        <Route path="/scribblepad" element={<ScribblePad />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/register" element={<SignUp />} />
         <Route path="/UserInfoForm" element={<UserInfoForm />} />
