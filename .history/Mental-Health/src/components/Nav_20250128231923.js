@@ -17,7 +17,7 @@ const Nav = ({ chatbotName }) => {
       await auth.signOut();
   
       // Redirect to the login page
-      window.location.href = "/Project-3-1-CHatbot-Mental-Health-/";
+      window.location.href = "/landing-page";
     } catch (error) {
       console.error("Error logging out:", error);
     }
@@ -103,7 +103,7 @@ const Nav = ({ chatbotName }) => {
               <Link
                 className="dropdown-item"
                 backgroundColor="{{ backgroundColor: 'blue', border: 'none' }}"
-                to="/UserInfoForm"
+                to="/Project-3-1-CHatbot-Mental-Health-/login/UserInfoForm"
                 onClick={() => setShowDropdown(false)}
               >
                 Profile Settings

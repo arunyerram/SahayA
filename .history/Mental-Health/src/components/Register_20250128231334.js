@@ -103,7 +103,7 @@ function Register() {
             </button></b>
           </div>
           <b><p className="forgot-password text-center mt-1 mr-14 font-size: '4rem'">
-            Already registered? <a href="/Project-3-1-CHatbot-Mental-Health-/login"> <span style={{color:"black"}}>Login</span></a>
+            Already registered? <a href="/login"> <span style={{color:"black"}}>Login</span></a>
           </p>
           </b>
         </form>
