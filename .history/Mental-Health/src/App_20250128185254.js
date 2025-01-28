@@ -68,7 +68,7 @@ function App() {
        
         <Route path="/" element={<Navigate to="https://arun-yerram.github.io/Project-3-1-CHatbot-Mental-Health-/" />} />
         
-        <Route path="https://arun-yerram.github.io/Project-3-1-CHatbot-Mental-Health-/" element={<LandingPage />} />
+        <Route path="/Project-3-1-CHatbot-Mental-Health-" element={<LandingPage />} />
        
         <Route path="/login" element={<Login />} />
         
