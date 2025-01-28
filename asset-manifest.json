@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/SahayA/static/css/main.eae4c65c.css",
-    "main.js": "/SahayA/static/js/main.68023ef7.js",
+    "main.css": "/SahayA/static/css/main.4201039d.css",
+    "main.js": "/SahayA/static/js/main.325e4b1d.js",
     "static/js/511.45fed91b.chunk.js": "/SahayA/static/js/511.45fed91b.chunk.js",
     "static/media/google.png": "/SahayA/static/media/google.e4a85a2088b406e83caf.png",
     "static/media/Sahaya-removebg-preview.png": "/SahayA/static/media/Sahaya-removebg-preview.95d42f2cc2260f905908.png",
     "index.html": "/SahayA/index.html",
-    "main.eae4c65c.css.map": "/SahayA/static/css/main.eae4c65c.css.map",
-    "main.68023ef7.js.map": "/SahayA/static/js/main.68023ef7.js.map",
+    "main.4201039d.css.map": "/SahayA/static/css/main.4201039d.css.map",
+    "main.325e4b1d.js.map": "/SahayA/static/js/main.325e4b1d.js.map",
     "511.45fed91b.chunk.js.map": "/SahayA/static/js/511.45fed91b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eae4c65c.css",
-    "static/js/main.68023ef7.js"
+    "static/css/main.4201039d.css",
+    "static/js/main.325e4b1d.js"
   ]
 }
