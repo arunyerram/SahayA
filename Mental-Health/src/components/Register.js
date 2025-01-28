@@ -31,7 +31,7 @@ function Register() {
         position: "top-center",
       });
 
-      window.location.href = "/login";
+      window.location.href = "/Project-3-1-CHatbot-Mental-Health-/login";
     } catch (error) {
       console.error("Registration Error: ", error.message);
       toast.error("Registration failed: " + error.message, {

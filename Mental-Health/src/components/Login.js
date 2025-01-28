@@ -14,7 +14,7 @@ function Login() {
     try {
       await signInWithEmailAndPassword(auth, email, password);
       console.log("User logged in Successfully");
-      window.location.href = "/chatbot"; // Redirect to home
+      window.location.href = "/Project-3-1-CHatbot-Mental-Health-/chatbot"; // Redirect to home
       toast.success("User logged in Successfully", {
         position: "top-center",
       });

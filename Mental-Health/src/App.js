@@ -221,10 +221,10 @@ function App() {
         <Route path="/notes" element={<Notes />} />
         <Route path="/scribble-pad" element={<ScribblePad />} />
         <Route path="/profile" element={<Profile />} />
-        <Route path="/register" element={<SignUp />} />
+        <Route path="/Project-3-1-CHatbot-Mental-Health-/register" element={<SignUp />} />
         <Route path="/UserInfoForm" element={<UserInfoForm />} />
-        <Route path="/tasksDone" element={<Tasks />} />
-        <Route path="/personal-assistant" element={<PersonalAssistant />} />
+        <Route path="/Project-3-1-CHatbot-Mental-Health-/tasksDone" element={<Tasks />} />
+        <Route path="/Project-3-1-CHatbot-Mental-Health-/personal-assistant" element={<PersonalAssistant />} />
         <Route path="/notifications-app" element={<Notiapp />} />
         <Route path="/form-date" element={<formatDateTime />} />
       </Routes>

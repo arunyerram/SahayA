@@ -19,7 +19,7 @@ function SignInwithGoogle() {
         toast.success("User logged in Successfully", {
           position: "top-center",
         })
-        window.location.href = "/chatbot";
+        window.location.href = "/Project-3-1-CHatbot-Mental-Health-/chatbot";
       }
     });
   }
