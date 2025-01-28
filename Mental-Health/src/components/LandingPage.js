@@ -55,7 +55,7 @@ const LandingPage = () => {
       <div className="navbar">
         <div className="container">
           <div className="logo">
-            <img src="/images/SahayA.jpg" alt="Logo" className="logo-image" style={{ height: '100px', width: '200px' }} />
+            <img src="images/SahayA.jpg" alt="Logo" className="logo-image" style={{ height: '100px', width: '200px' }} />
           </div>
 
         </div>
