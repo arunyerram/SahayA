@@ -1,0 +1,77 @@
+/* Container for the feedback form */
+.feedback-container {
+  max-width: 600px; /* Set a max width for the form */
+  height: 400px;
+  margin: 50px auto; /* Center the container horizontally */
+  margin-top: 350px; /* Adjusted margin-top for balanced spacing */
+  padding: 20px; /* Adds space inside the container */
+  min-height: 400px; /* Ensures a consistent height for the container */
+  border-radius: 10px; /* Rounded corners for a modern look */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  background: linear-gradient(135deg, #74ebd5, #acb6e5); /* Gradient background */
+  backdrop-filter: blur(10px); /* Optional: Adds a frosted glass effect */
+  transition: all 0.3s ease-in-out; /* Smooth transition for hover effects */
+}
+
+/* Title of the feedback section */
+.feedback-title {
+  text-align: center; /* Center the title */
+  font-size: 2.5rem; /* Slightly larger for more impact */
+  margin-bottom: 10px;
+  color: #333; /* Dark color for contrast */
+}
+
+/* Subtitle text below the title */
+.feedback-subtitle {
+  text-align: center; 
+  font-size: 1.6rem; 
+  margin-bottom: 20px;
+  color: #666; 
+}
+
+
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; 
+  background-color:blue;
+}
+
+
+.feedback-textarea {
+  width: 100%;
+  height: 150px; 
+  padding: 12px; 
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none; 
+
+}
+
+.feedback-button {
+  padding: 12px 20px; 
+  font-size: 1.1rem; 
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+}
+
+.feedback-button:hover {
+  background-color: #0056b3; 
+}
+
+
+.feedback-message {
+  text-align: center; 
+  font-size: 1rem;
+  color: green;
+  margin-top: 10px;
+}
+
+.feedback-message.error {
+  color: red; 
+}
