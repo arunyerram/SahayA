@@ -36,13 +36,14 @@ const PersonalAssistant = () => {
       <Nav />
       <div className="consultancy-container ">
       <h1 className="text-4xl font-bold  text-center">Personal Assistant</h1>
-        <div className="profiles-grid mt-10 mb-8">
+        <div className="profiles-grid mt-5 mb-8">
           {/* Card 1: Notification sending */}
           <div className="card">
             <img
-              src="/images/notify.jpg" // Correct path from the public folder
+              src="images/notify.jpg" // Correct path from the public folder
               className="card-img"
               alt="Send Notifications"
+              height="50px"
             />
             <div className="card-body">
               <h5 className="card-title">Send Notifications</h5>
@@ -68,7 +69,7 @@ const PersonalAssistant = () => {
           {/* Card 2: To-Do List Tracker */}
           <Link to="/tasksDone" className="card">
             <img
-              src="/images/TaskTracker_logo.png" // Correct path from the public folder
+              src="images/TaskTracker_logo.png" // Correct path from the public folder
               className="card-img"
               alt="To-Do List Tracker"
             />

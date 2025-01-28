@@ -102,7 +102,7 @@ const Home = () => {
     <div className="slider" style={{ "--quantity": 4 }}>
       <a href="/SahayA/register" className="item" style={{ "--position": 1 }}>
         <div className="card">
-          <img src="/images/Chatbot.jpg" alt="Chatbot" className="card-image" height= "30px" width="6px" />
+          <img src="images/Chatbot.jpg" alt="Chatbot" className="card-image" height= "30px" width="6px" />
           <div className="card-content">
             <h3>Chatbot</h3>
             <p>Interact with our advanced chatbot for your queries.</p>
@@ -200,14 +200,14 @@ const Home = () => {
     transition={{ duration: 0.5 }}
   >
     <img
-      src="/images/notes.jpg"
+      src="images/notes.jpg"
       alt="Notepad"
       title="Notepad"
       style={{ width: "70px", height: "60px", cursor: "pointer" }} // Increased size
       onClick={() => navigate("/notes")}
     />
     <img
-      src="/images/scribble.png"
+      src="images/scribble.png"
       alt="Scribble Pad"
       title="Scribble Pad"
       style={{ width: "70px", height: "60px", cursor: "pointer" }} // Increased size
