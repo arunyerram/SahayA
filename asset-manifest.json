@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Project-3-1-CHatbot-Mental-Health-/static/css/main.f4f2bc11.css",
-    "main.js": "/Project-3-1-CHatbot-Mental-Health-/static/js/main.bfaa6dea.js",
-    "static/js/511.45fed91b.chunk.js": "/Project-3-1-CHatbot-Mental-Health-/static/js/511.45fed91b.chunk.js",
-    "static/media/google.png": "/Project-3-1-CHatbot-Mental-Health-/static/media/google.e4a85a2088b406e83caf.png",
-    "static/media/Sahaya-removebg-preview.png": "/Project-3-1-CHatbot-Mental-Health-/static/media/Sahaya-removebg-preview.95d42f2cc2260f905908.png",
-    "index.html": "/Project-3-1-CHatbot-Mental-Health-/index.html",
-    "main.f4f2bc11.css.map": "/Project-3-1-CHatbot-Mental-Health-/static/css/main.f4f2bc11.css.map",
-    "main.bfaa6dea.js.map": "/Project-3-1-CHatbot-Mental-Health-/static/js/main.bfaa6dea.js.map",
-    "511.45fed91b.chunk.js.map": "/Project-3-1-CHatbot-Mental-Health-/static/js/511.45fed91b.chunk.js.map"
+    "main.css": "/SahayA/static/css/main.eae4c65c.css",
+    "main.js": "/SahayA/static/js/main.2e1b65d5.js",
+    "static/js/511.45fed91b.chunk.js": "/SahayA/static/js/511.45fed91b.chunk.js",
+    "static/media/google.png": "/SahayA/static/media/google.e4a85a2088b406e83caf.png",
+    "static/media/Sahaya-removebg-preview.png": "/SahayA/static/media/Sahaya-removebg-preview.95d42f2cc2260f905908.png",
+    "index.html": "/SahayA/index.html",
+    "main.eae4c65c.css.map": "/SahayA/static/css/main.eae4c65c.css.map",
+    "main.2e1b65d5.js.map": "/SahayA/static/js/main.2e1b65d5.js.map",
+    "511.45fed91b.chunk.js.map": "/SahayA/static/js/511.45fed91b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4f2bc11.css",
-    "static/js/main.bfaa6dea.js"
+    "static/css/main.eae4c65c.css",
+    "static/js/main.2e1b65d5.js"
   ]
 }
