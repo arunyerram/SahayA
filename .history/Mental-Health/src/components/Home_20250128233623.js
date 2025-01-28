@@ -100,7 +100,7 @@ const Home = () => {
     }}
   >
     <div className="slider" style={{ "--quantity": 4 }}>
-      <a href="/SahayA/register" className="item" style={{ "--position": 1 }}>
+      <a href="/register" className="item" style={{ "--position": 1 }}>
         <div className="card">
           <img src="/images/Chatbot.jpg" alt="Chatbot" className="card-image" height= "30px" width="6px" />
           <div className="card-content">

@@ -17,7 +17,7 @@ const Nav = ({ chatbotName }) => {
       await auth.signOut();
   
       // Redirect to the login page
-      window.location.href = "/SahayA/";
+      window.location.href = "/Project-3-1-CHatbot-Mental-Health/";
     } catch (error) {
       console.error("Error logging out:", error);
     }

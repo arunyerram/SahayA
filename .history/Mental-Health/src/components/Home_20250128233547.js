@@ -100,7 +100,7 @@ const Home = () => {
     }}
   >
     <div className="slider" style={{ "--quantity": 4 }}>
-      <a href="/SahayA/register" className="item" style={{ "--position": 1 }}>
+      <a href="/Project-3-1-CHatbot-Mental-Health-/register" className="item" style={{ "--position": 1 }}>
         <div className="card">
           <img src="/images/Chatbot.jpg" alt="Chatbot" className="card-image" height= "30px" width="6px" />
           <div className="card-content">
@@ -109,7 +109,7 @@ const Home = () => {
           </div>
         </div>
       </a>
-      <a href="/SahayA/personal-assistant" className="item" style={{ "--position": 2 }}>
+      <a href="/Project-3-1-CHatbot-Mental-Health-/personal-assistant" className="item" style={{ "--position": 2 }}>
         <div className="card">
           <img src="images/personlassistant.jpg" alt="Personal Assistant" className="card-image" height="30px" width="6px" />
           <div className="card-content">
@@ -118,7 +118,7 @@ const Home = () => {
           </div>
         </div>
       </a>
-      <a href="/SahayA/consultancy" className="item" style={{ "--position": 3 }}>
+      <a href="/Project-3-1-CHatbot-Mental-Health-/consultancy" className="item" style={{ "--position": 3 }}>
         <div className="card">
           <img src="images/consultancy.jpg" alt="Personal Guidance" className="card-image"  height="30px" width="6px"/>
           <div className="card-content">
@@ -127,7 +127,7 @@ const Home = () => {
           </div>
         </div>
       </a>
-      <a href="/SahayA/tasksDone" className="item" style={{ "--position": 4 }}>
+      <a href="/Project-/tasksDone" className="item" style={{ "--position": 4 }}>
         <div className="card">
           <img src="images/Todo.webp" alt="Todo Tracker" className="card-image" height= "30px" width="6px" />
           <div className="card-content">

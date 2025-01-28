@@ -5,16 +5,18 @@ import { setDoc, doc } from "firebase/firestore";
 import { toast } from "react-toastify";
 import "../css/Login.css";
 function Register() {
-    const [email, setEmail] = useState("");
-    const [password, setPassword] = useState("");
-    const [fname, setFname] = useState("");
-    const [lname, setLname] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [fname, setFname] = useState("");
+  const [lname, setLname] = useState("");
+
   const handleRegister = async (e) => {
     e.preventDefault();
     try {
       const userCredential = await createUserWithEmailAndPassword(auth, email, password);
       const user = userCredential.user;
       console.log("User Registered: ", user);
+      
 
       if (user) {
         await setDoc(doc(db, "Users", user.uid), {

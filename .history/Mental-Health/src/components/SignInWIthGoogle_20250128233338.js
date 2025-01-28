@@ -19,7 +19,7 @@ function SignInwithGoogle() {
         toast.success("User logged in Successfully", {
           position: "top-center",
         })
-        window.location.href = "/SahayA/chatbot";
+        window.location.href = "SahayA/chatbot";
       }
     });
   }

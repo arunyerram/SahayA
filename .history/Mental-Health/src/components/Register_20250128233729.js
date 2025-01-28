@@ -5,16 +5,18 @@ import { setDoc, doc } from "firebase/firestore";
 import { toast } from "react-toastify";
 import "../css/Login.css";
 function Register() {
-    const [email, setEmail] = useState("");
-    const [password, setPassword] = useState("");
-    const [fname, setFname] = useState("");
-    const [lname, setLname] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [fname, setFname] = useState("");
+  const [lname, setLname] = useState("");
+
   const handleRegister = async (e) => {
     e.preventDefault();
     try {
       const userCredential = await createUserWithEmailAndPassword(auth, email, password);
       const user = userCredential.user;
       console.log("User Registered: ", user);
+      
 
       if (user) {
         await setDoc(doc(db, "Users", user.uid), {
@@ -29,7 +31,7 @@ function Register() {
         position: "top-center",
       });
 
-      window.location.href = "/SahayA/login";
+      window.location.href = "/Project-3-1-CHatbot-Mental-Health-/login";
     } catch (error) {
       console.error("Registration Error: ", error.message);
       toast.error("Registration failed: " + error.message, {
@@ -101,7 +103,7 @@ function Register() {
             </button></b>
           </div>
           <b><p className="forgot-password text-center mt-1 mr-14 font-size: '4rem'">
-            Already registered? <a href="/SahayA/login"> <span style={{color:"black"}}>Login</span></a>
+            Already registered? <a href="/Sahain"> <span style={{color:"black"}}>Login</span></a>
           </p>
           </b>
         </form>

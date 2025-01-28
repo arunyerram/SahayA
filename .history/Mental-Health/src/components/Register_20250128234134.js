@@ -15,6 +15,7 @@ function Register() {
       const userCredential = await createUserWithEmailAndPassword(auth, email, password);
       const user = userCredential.user;
       console.log("User Registered: ", user);
+      
 
       if (user) {
         await setDoc(doc(db, "Users", user.uid), {
