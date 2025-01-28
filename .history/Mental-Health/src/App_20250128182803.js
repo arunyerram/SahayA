@@ -66,18 +66,19 @@ function App() {
     <Router>
       <Routes>
        
-        <Route path="/" element={<Navigate to="/Project-3-1-CHatbot-Mental-Health-" />} />
-        
-        <Route path="/Project-3-1-CHatbot-Mental-Health-" element={<LandingPage />} />
-       
+        <Route path="/" element={<Navigate to="/landing-page" />} />
+        {/* Landing Page Route */}
+        <Route path="/landing-page" element={<LandingPage />} />
+        {/* Login Route */}
         <Route path="/login" element={<Login />} />
-        
+        {/* Other Routes */}
         <Route path="/about" element={<About />} />
-        <Route path=" /chatbot" element={<Chatbot />} />
+        <Route path="/chatbot" element={<Chatbot />} />
         <Route
           path="/consultancy"
           element={
             <Consultancy>
+              {/* Notification Scheduler inside Consultancy */}
               <div className="bg-white p-6 mt-500 rounded-lg shadow-md">
                 <h2 className="text-xl font-semibold mb-4">New Notification</h2>
                 <NotificationForm onSubmit={handleSubmit} />
@@ -109,6 +110,7 @@ function App() {
         <Route path="/personal-assistant" element={<PersonalAssistant />} />
         <Route path="/notifications-app" element={<Notiapp/>} />
         <Route path="/form-date" element={<formatDateTime/>} />
+        
       </Routes>
       <ToastContainer />
     </Router>

@@ -66,18 +66,19 @@ function App() {
     <Router>
       <Routes>
        
-        <Route path="/" element={<Navigate to="/Project-3-1-CHatbot-Mental-Health-" />} />
+        <Route path="/" element={<Navigate to="http://ARUN-YERRAM.github.io/Project-3-1-CHatbot-Mental-Health-" />} />
         
-        <Route path="/Project-3-1-CHatbot-Mental-Health-" element={<LandingPage />} />
+        <Route path="http://ARUN-YERRAM.github.io/Project-3-1-CHatbot-Mental-Health-" element={<LandingPage />} />
        
-        <Route path="/login" element={<Login />} />
+        <Route path="http://ARUN-YERRAM.github.io/login" element={<Login />} />
         
-        <Route path="/about" element={<About />} />
-        <Route path=" /chatbot" element={<Chatbot />} />
+        <Route path="http://ARUN-YERRAM.github.io/about" element={<About />} />
+        <Route path="http://ARUN-YERRAM.github.io/chatbot" element={<Chatbot />} />
         <Route
-          path="/consultancy"
+          path="http://ARUN-YERRAM.github.io/consultancy"
           element={
             <Consultancy>
+              
               <div className="bg-white p-6 mt-500 rounded-lg shadow-md">
                 <h2 className="text-xl font-semibold mb-4">New Notification</h2>
                 <NotificationForm onSubmit={handleSubmit} />
@@ -94,21 +95,22 @@ function App() {
             </Consultancy>
           }
         />
-        <Route path="/contactUs" element={<ContactUs />} />
-        <Route path="/chat-application" element={<ChatApplication />} />
-        <Route path="/consultancy-profiles" element={<ConsultancyProfiles />} />
-        <Route path="/feedback" element={<Feedback />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/Model" element={<Model/>}/>
-        <Route path="/notes" element={<Notes />} />
-        <Route path="/scribble-pad" element={<ScribblePad />} />
-        <Route path="/profile" element={<Profile />} />
-        <Route path="/register" element={<SignUp />} />
-        <Route path="/UserInfoForm" element={<UserInfoForm />} />
-        <Route path="/tasksDone" element={<Tasks />} />
-        <Route path="/personal-assistant" element={<PersonalAssistant />} />
-        <Route path="/notifications-app" element={<Notiapp/>} />
-        <Route path="/form-date" element={<formatDateTime/>} />
+        <Route path="http://ARUN-YERRAM.github.io/contactUs" element={<ContactUs />} />
+        <Route path="http://ARUN-YERRAM.github.io/chat-application" element={<ChatApplication />} />
+        <Route path="http://ARUN-YERRAM.github.io/consultancy-profiles" element={<ConsultancyProfiles />} />
+        <Route path="http://ARUN-YERRAM.github.io/feedback" element={<Feedback />} />
+        <Route path="http://ARUN-YERRAM.github.io/home" element={<Home />} />
+        <Route path="http://ARUN-YERRAM.github.io/Model" element={<Model/>}/>
+        <Route path="http://ARUN-YERRAM.github.io/notes" element={<Notes />} />
+        <Route path="http://ARUN-YERRAM.github.io/scribble-pad" element={<ScribblePad />} />
+        <Route path="http://ARUN-YERRAM.github.io/profile" element={<Profile />} />
+        <Route path="http://ARUN-YERRAM.github.io/register" element={<SignUp />} />
+        <Route path="http://ARUN-YERRAM.github.io/UserInfoForm" element={<UserInfoForm />} />
+        <Route path="http://ARUN-YERRAM.github.io/tasksDone" element={<Tasks />} />
+        <Route path="http://ARUN-YERRAM.github.io/personal-assistant" element={<PersonalAssistant />} />
+        <Route path="http://ARUN-YERRAM.github.io/notifications-app" element={<Notiapp/>} />
+        <Route path="http://ARUN-YERRAM.github.io/form-date" element={<formatDateTime/>} />
+        
       </Routes>
       <ToastContainer />
     </Router>
