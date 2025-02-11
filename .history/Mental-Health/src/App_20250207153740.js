@@ -23,8 +23,8 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import ChatApplication from "./components/ChatApplication";
 import ScribblePad from "./components/ScribblePad";
-// import { NotificationForm } from "./components/NotificationForm";
-// import { NotificationList } from "./components/NotificationList";
+import { NotificationForm } from "./components/NotificationForm";
+import { NotificationList } from "./components/NotificationList";
 // import { formatDateTime } from "./components/DateUtils";
 // import Notiapp from "./components/NotiApp";
 import NotificationScheduler from './components/NotificationScheduler';
@@ -73,7 +73,14 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/about" element={<About />} />
         <Route path="/chatbot" element={<Chatbot />} />
-        <Route path="/consultancy"element={<Consultancy/>}/>
+        <Route
+          path="/consultancy"
+          element={
+            <Consultancy>
+
+            </Consultancy>
+          }
+        />
         <Route path="/contactUs" element={<ContactUs />} />
         <Route path="/book-appointment"element={<BookAppointment />} />
         <Route path="/chat-application" element={<ChatApplication />} />

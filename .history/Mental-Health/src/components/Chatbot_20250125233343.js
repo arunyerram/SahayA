@@ -12,16 +12,10 @@ import { useNavigate } from "react-router-dom";
 // const API_KEY = "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";  // Replace with your actual API key
 const API_KEY = process.env.REACT_APP_GROQ_API_KEY;
 
-// const systemMessage = {
-//   "role": "system",
-//   "content": "Hello! I’m Sahaya, your mental health support assistant. Feel free to ask me anything related to mental health, and I'll do my best to assist you! and if asked about other topics please reply Formally and politely I am here to assist about Mental health Issues."
-// };
-
 const systemMessage = {
   "role": "system",
-  "content": "Hello! I’m Sahaya, your mental health support assistant. I am here to assist you with any mental health-related questions. For topics outside of mental health, I won’t be able to provide assistance."
+  "content": "Hello! I’m Sahaya, your mental health support assistant. Feel free to ask me anything related to mental health, and I'll do my best to assist you! and if asked about other topics please reply Formally and politely I am here to assist about Mental health Issues."
 };
-
 
 function Chatbot() {
   const storedChatbotName = localStorage.getItem("chatbotName");
