@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../css/Notes.css";
 import { Link } from "react-router-dom";
-import Footer from './Footer';
+// import Footer from './Footer';
 const Notes = () => {
   const [notes, setNotes] = useState(() => {
     const savedNotes = localStorage.getItem("notes");

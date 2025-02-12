@@ -3,7 +3,7 @@ import { useGLTF, useAnimations, useTexture } from "@react-three/drei";
 
 const Character = ({ currentAnimationName }) => {
   const group = useRef();
-  const { nodes, materials, animations } = useGLTF("/stacy.glb");
+  const { nodes, materials, animations } = useGLTF("/Character2.glb");
   const { actions } = useAnimations(animations, group);
   const texture = useTexture("/stacy.jpg");
 
@@ -40,32 +40,3 @@ useGLTF.preload("/stacy.glb");
 
 export default Character;
 
-
-
-
-
-// // src/components/Character.js
-// import React, { useRef } from "react";
-// import { useGLTF, useTexture } from "@react-three/drei";
-// import { useFrame } from "@react-three/fiber";
-
-// const Character = ({ glbPath, texturePath, position, scale }) => {
-//   const character = useGLTF(glbPath);
-//   const texture = useTexture(texturePath);
-//   const ref = useRef();
-
-//   // Rotate the character slowly for a better view
-//   useFrame(() => {
-//     if (ref.current) {
-//       ref.current.rotation.y += 0.005;
-//     }
-//   });
-
-//   return (
-//     <group ref={ref} position={position} scale={scale}>
-//       <primitive object={character.scene} />
-//     </group>
-//   );
-// };
-
-// export default Character;

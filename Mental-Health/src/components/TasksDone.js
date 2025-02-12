@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { db } from "./Firebase";
 import { collection, addDoc, getDocs, deleteDoc, doc, updateDoc } from "firebase/firestore";
 import "../css/TasksDone.css";
@@ -74,7 +74,7 @@ const TaskDone = () => {
 
   useEffect(() => {
     fetchTasks();
-  }, []);
+  });
 
   return (
     <>
@@ -133,8 +133,6 @@ const TaskDone = () => {
     >
       Back
     </button>
-
-
     </>
   );
 };
