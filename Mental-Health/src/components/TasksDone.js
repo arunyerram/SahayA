@@ -74,7 +74,7 @@ const TaskDone = () => {
 
   useEffect(() => {
     fetchTasks();
-  });
+  }, []);
 
   return (
     <>
